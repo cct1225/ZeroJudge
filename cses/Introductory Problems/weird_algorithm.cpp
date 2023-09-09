@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    int n;
+    ios::sync_with_stdio(false); cin.tie(0);
+    long long int n;
     cin>>n;
     cout<<n<<" ";
     while(n!=1)

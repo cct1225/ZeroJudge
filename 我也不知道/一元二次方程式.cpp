@@ -9,7 +9,7 @@ int main()
     D=pow(b,2)-4*a*c;
     if(D>0)
     {
-        cout<<"Two different roots ";
+        cout<<"Two different roots "<<endl;
         cout<<"x1="<<((b*-1)+sqrt(D))/(2*a)<<" , ";
         cout<<"x2="<<((b*-1)-sqrt(D))/(2*a);
     }

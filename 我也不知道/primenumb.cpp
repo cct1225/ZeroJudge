@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    long int n,i;
+    long long int n,i;
     while(cin>>n)
     {
         if(n<1){
@@ -19,8 +19,8 @@ int main()
                 break;
             }
         }
-        if(prime)    cout<<"質數"<<endl;
-        else    cout<<"非質數"<<endl;
+        if(prime)    cout<<"prime"<<endl;
+        else    cout<<"not prime"<<endl;
         
 
 
